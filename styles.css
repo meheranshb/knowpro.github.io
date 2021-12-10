@@ -1,0 +1,41 @@
+div.a{
+	position: relative;
+	left: 550px;
+	top: -350px;
+	 background-color: lightgreen;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px lightgreen;
+}
+a:hover, a:active {
+  background-color: red;
+}
+
+div.b {
+	position: relative;
+  right: 1px;
+  top:0px;
+} 
+
+
+div.c {
+  position: relative;
+  bottom: -410px;
+  right: 550px; background-color: lightgreen;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+   border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px lightgreen;
+}
+a:hover, a:active {
+  background-color: red;
+} 

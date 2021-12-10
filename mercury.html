@@ -1,0 +1,247 @@
+<HTML>
+<HEAD>
+<TITLE>FIRST PLANET DETAILS</TITLE>
+</HEAD>
+<BODY bgcolor="White">
+<center>
+<FONT face="Lucida sans"color="Purple">
+<h1></H1><FONT size="40"color="Purple">MERCURY</FONT>
+<CENTER>
+<P>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+<body>
+
+
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2015/06/messenger_s_iridescent_mercury/15445906-1-eng-GB/Messenger_s_iridescent_Mercury_pillars.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/ma_1005_NID_Mercury_online3.jpg?itok=ScaR7iGw" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="https://images.newscientist.com/wp-content/uploads/2019/11/25160514/stargazingimage.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="https://cbsnews3.cbsistatic.com/hub/i/r/2019/11/11/a2ed1536-1b6f-4a08-a860-148cd8f7dc8a/thumbnail/1200x630/41ab2b87b9f683b170014e2bb25f47b4/mercury-transit-ap-19315594497332.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="https://i.natgeofe.com/k/a4531a54-d1c6-406a-ad0a-b75e451a8fbf/mercury.jpg?wp=1&w=636&h=358" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="https://static01.nyt.com/images/2012/11/30/us/MERCURY/MERCURY-articleLarge.jpg?year=2012&h=305&w=600&sig=0x197a84dbef3fe949da8d288e5a0c28a8" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)"><</a>
+  <a class="next" onclick="plusSlides(1)">></a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2015/06/messenger_s_iridescent_mercury/15445906-1-eng-GB/Messenger_s_iridescent_Mercury_pillars.jpg" style="width:100%" onclick="currentSlide(1)" alt="Mercury">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/ma_1005_NID_Mercury_online3.jpg?itok=ScaR7iGw" style="width:100%" onclick="currentSlide(2)" alt="Mercury">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://images.newscientist.com/wp-content/uploads/2019/11/25160514/stargazingimage.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mercury">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://cbsnews3.cbsistatic.com/hub/i/r/2019/11/11/a2ed1536-1b6f-4a08-a860-148cd8f7dc8a/thumbnail/1200x630/41ab2b87b9f683b170014e2bb25f47b4/mercury-transit-ap-19315594497332.jpg" style="width:100%" onclick="currentSlide(4)" alt="Mercury">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://i.natgeofe.com/k/a4531a54-d1c6-406a-ad0a-b75e451a8fbf/mercury.jpg?wp=1&w=636&h=358" style="width:100%" onclick="currentSlide(5)" alt="Mercury">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="https://static01.nyt.com/images/2012/11/30/us/MERCURY/MERCURY-articleLarge.jpg?year=2012&h=305&w=600&sig=0x197a84dbef3fe949da8d288e5a0c28a8" style="width:100%" onclick="currentSlide(6)" alt="Mercury">
+    </div>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+
+
+	<P><a href="https://youtu.be/1RPk35YUToA" target = "_blank">Click On This Link To See The Video About Mercury</a>
+<p><FONT size="6"color="Green">Mercury is the smallest and innermost planet in the Solar System. Its orbit around the Sun takes 87.97 days, the shortest of all the planets in the Solar System. It is named after the Greek god Hermes (Ερμής), translated into Latin Mercurius Mercury, god of commerce, messenger of the gods, mediator between gods and mortals.Like Venus, Mercury orbits the Sun within Earth's orbit as an inferior planet, and its apparent distance from the Sun as viewed from Earth never exceeds 28°. This proximity to the Sun means the planet can only be seen near the western horizon after sunset or eastern horizon before sunrise, usually in twilight. At this time, it may appear as a bright star-like object, but is often far more difficult to observe than Venus. The planet telescopically displays the complete range of phases, similar to Venus and the Moon, as it moves in its inner orbit relative to Earth, which recurs over its synodic period of approximately 116 days.</FONT>
+<FONT face="Rockwell">
+<P>1 SMALLEST<P>
+<P>Mercury is the smallest planet in our solar system—only slightly larger than Earth's Moon. <P>
+
+
+<P>2 INSIDER<P>
+<P>It is the closest planet to the Sun at a distance of about 36 million miles (58 million kilometers) or 0.39 AU.<P>
+
+
+<P>3 LONG DAYS, SHORT YEARS<P>
+<P>One day on Mercury (the time it takes for Mercury to rotate or spin once with respect to the stars) takes 59 Earth days. One day-night cycle on Mercury takes 175.97 Earth days. Mercury makes a complete orbit around the Sun (a year in Mercury time) in just 88 Earth days.<P>
+
+<P>MERCURY TRANSIT - NOVEMBER 2006<P>
+
+<P>4 ROUGH SURFACE<P>
+<P>Mercury is a rocky planet, also known as a terrestrial planet. Mercury has a solid, cratered surface, much like the Earth's moon.<P>
+
+
+<P>5 CAN'T BREATHE IT<P>
+<P>Mercury's thin atmosphere, or exosphere, is composed mostly of oxygen (O2), sodium (Na), hydrogen (H2), helium (He), and potassium (K). Atoms that are blasted off the surface by the solar wind and micrometeoroid impacts create Mercury's exosphere.<P>
+
+
+<P>6 MOONLESS<P>
+<P>Mercury has no moons. <P>
+
+
+<P>7 RINGLESS<P>
+There are no rings around Mercury. <P>
+
+
+<P>8 TOUGH PLACE TO LIVE<P>
+<P>No evidence for life has been found on Mercury. Daytime Temperatures can reach 430 degrees Celsius (800 degrees Fahrenheit) and drop to -180 degrees Celsius (-290 degrees Fahrenheit) at night. It is unlikely life (as we know it) could survive on this planet.<P>
+
+
+<P>9 BIG SUN<P>
+<P>Standing on Mercury's surface at its closest approach to the Sun, our star would appear more than three times larger than it does on Earth.<P>
+
+
+<P>10 ROBOTIC VISITORS<P>
+<P>The two spacecraft of ESA-JAXA's BepiColombo are en route to Mercury. NASA's Mariner 10 was the first mission to explore Mercury. NASA's MESSENGER was the first to orbit the innermost planet.<P>
